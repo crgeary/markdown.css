@@ -1,0 +1,35 @@
+h1, h2, h3, h4, h5, h6 {
+    &::before { opacity: .25; }
+}
+h1::before { content: '# '; }
+h2::before { content: '## '; }
+h3::before { content: '### '; }
+h4::before { content: '#### '; }
+h5::before { content: '##### '; }
+h6::before { content: '###### '; }
+
+strong {
+    &::before, &::after { content: '**'; }
+}
+
+em {
+    &::before, &::after { content: '*'; }
+}
+
+a {
+    &::before { content: '['; }
+    &::after { content: '](' attr(href) ')'; }
+}
+
+pre {
+    &::before, &::after { display: block; content: '````'; }
+}
+
+code {
+    &::before, &::after { content: '`'; }
+}
+
+ul > li, ol > li {
+    list-style: none;
+    &::before { content: '* '; }
+}
