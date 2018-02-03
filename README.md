@@ -13,7 +13,7 @@ Checkout [the demo](https://markdown-css.netlify.com) for `markdown.css`
 * [x] Italics
 * [x] Hyperlinks
 * [x] Code (inline)
-* [x] Code (block)
+* [x] Code (block with language identifier)
 * [x] Lists
 * [ ] Strikethrough
 * [ ] Horizontal Rule
