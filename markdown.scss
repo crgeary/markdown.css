@@ -19,7 +19,7 @@ a {
 }
 
 pre {
-    &::before, &::after { display: block; content: '````'; }
+    &::before, &::after { display: block; content: '```'; }
 }
 
 code {
