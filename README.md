@@ -1,5 +1,10 @@
 # markdown.css
+
 Make HTML look a bit like Markdown
+
+## Demo
+
+Checkout [the demo](https://markdown-css.netlify.com) for `markdown.css`
 
 ## Supports
 
