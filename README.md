@@ -15,7 +15,7 @@ Checkout [the demo](https://markdown-css.netlify.com) for `markdown.css`
 * [x] Code (inline)
 * [x] Code (block with language identifier)
 * [x] Lists
-* [ ] Strikethrough
+* [x] Strikethrough
 * [ ] Horizontal Rule
 * [ ] Quotes
 * [ ] Checkbox

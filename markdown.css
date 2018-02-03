@@ -48,3 +48,11 @@ ul > li {
 ul > li::before {
     content: '* ';
 }
+
+s {
+    text-decoration: none;
+}
+s::before,
+s::after {
+    content: '~~';
+}
