@@ -56,3 +56,10 @@ s::before,
 s::after {
     content: '~~';
 }
+
+hr {
+    border: none;
+}
+hr::before {
+    content: '* * *';
+}
