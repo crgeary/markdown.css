@@ -18,7 +18,7 @@ Check out [the demo](https://markdown-css.netlify.com) for `markdown.css`
 * [x] Strikethrough
 * [x] Horizontal Rule
 * [ ] Quotes
-* [ ] Checkbox
+* [x] Checkbox
 
 ## License
 

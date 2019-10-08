@@ -63,3 +63,17 @@ hr {
 hr::before {
     content: '* * *';
 }
+
+li input[type="checkbox"] {
+    -mox-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    font-size: inherit;
+    margin: 0;
+}
+li input[type="checkbox"]::before {
+    content: '[ ]';
+}
+li input[type="checkbox"]:checked::before {
+    content: '[x]';
+}
